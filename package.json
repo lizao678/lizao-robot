@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "author": "zhangyi <zhy@dazhuanjia.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.0.4",
+    "openai": "^3.1.0",
+    "umi": "^4.0.34"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-alloy": "^4.7.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "node-sass": "^8.0.0",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "typescript": "*"
+  }
+}
